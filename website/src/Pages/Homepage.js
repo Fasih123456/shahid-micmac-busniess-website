@@ -2,6 +2,7 @@ import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import image1 from "../assets/img/hero-carousel/hero-carousel-2.jpg";
 import image2 from "../assets/img/hero-carousel/hero-carousel-3.jpg";
+import Carousel from "../Components/Carousel";
 
 function Homepage() {
   return (
@@ -21,51 +22,7 @@ function Homepage() {
           </div>
         </div>
 
-        <div
-          id="hero-carousel"
-          class="carousel slide"
-          data-bs-ride="carousel"
-          data-bs-interval="5000"
-        >
-          <div
-            class="carousel-item active"
-            style={{
-              backgroundImage: `url(${image1})`,
-            }}
-          ></div>
-          <div
-            class="carousel-item"
-            style={{
-              backgroundImage: `url(${image1})`,
-            }}
-          ></div>
-          <div
-            class="carousel-item"
-            style={{
-              backgroundImage: `url(${image2})`,
-            }}
-          ></div>
-          <div
-            class="carousel-item"
-            style={{
-              backgroundImage: `url(${image1})`,
-            }}
-          ></div>
-          <div
-            class="carousel-item"
-            style={{
-              backgroundImage: `url(${image1})`,
-            }}
-          ></div>
-
-          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-          </a>
-
-          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-          </a>
-        </div>
+        <Carousel images={[image1, image2]} />
       </section>
 
       <main id="main">
