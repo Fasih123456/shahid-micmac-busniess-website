@@ -6,6 +6,7 @@ import Partners from "./Pages/Partners";
 import Sectors from "./Pages/Sectors";
 import Aboutus from "./Pages/Aboutus";
 import ErrorPage from "./Pages/404";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Partners" element={<Partners />} />
         <Route path="/Sectors" element={<Sectors />} />
         <Route path="/Aboutus" element={<Aboutus />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
