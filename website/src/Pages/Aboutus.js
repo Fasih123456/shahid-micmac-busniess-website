@@ -4,6 +4,10 @@ import Footer from "../Components/Footer";
 
 import icon from "../assets/favicon.png";
 
+import image1 from "../assets/aboutusimg/1.jpeg";
+import image2 from "../assets/aboutusimg/2.jpeg";
+import image3 from "../assets/aboutusimg/3.jpeg";
+
 function Aboutus() {
   return (
     <React.Fragment>
@@ -12,10 +16,9 @@ function Aboutus() {
         <section id="alt-services" class="alt-services">
           <div class="container">
             <div class="row justify-content-around gy-4">
-              <div
-                class="col-lg-6 img-bg"
-                style={{ backgroundImage: "url(../assets/img/alt-services.jpg)" }}
-              ></div>
+              <div class="col-lg-6 img-bg">
+                <img src={image1} class="sectorimg" />
+              </div>
 
               <div class="col-lg-5 d-flex flex-column justify-content-center">
                 <h3>MIDMAC General Trading</h3>
@@ -67,10 +70,9 @@ function Aboutus() {
                 </p>
               </div>
 
-              <div
-                class="col-lg-6 img-bg"
-                style={{ backgroundImage: "url(../assets/img/alt-services-2.jpg)" }}
-              ></div>
+              <div class="col-lg-6 img-bg">
+                <img src={image2} class="sectorimg" />
+              </div>
             </div>
           </div>
         </section>
@@ -82,10 +84,9 @@ function Aboutus() {
         >
           <div class="container">
             <div class="row justify-content-around gy-4">
-              <div
-                class="col-lg-6 img-bg"
-                style={{ backgroundImage: "url(../assets/img/alt-services-2.jpg)" }}
-              ></div>
+              <div class="col-lg-6 img-bg">
+                <img src={image3} class="sectorimg" />
+              </div>
 
               <div class="col-lg-5 d-flex flex-column justify-content-center">
                 <h2>Our Mission</h2>

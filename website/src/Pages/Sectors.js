@@ -3,13 +3,13 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 
 //Sector images
-import image1 from "../assets/sectorsimg/1.jpg";
-import image2 from "../assets/sectorsimg/2.jpg";
-import image3 from "../assets/sectorsimg/3.jpg";
-import image4 from "../assets/sectorsimg/4.jpg";
-import image5 from "../assets/sectorsimg/5.jpg";
-import image6 from "../assets/sectorsimg/6.jpg";
-import image7 from "../assets/sectorsimg/7.jpg";
+import image1 from "../assets/sectorsimg/1.jpeg";
+import image2 from "../assets/sectorsimg/2.jpeg";
+import image3 from "../assets/sectorsimg/3.jpeg";
+import image4 from "../assets/sectorsimg/4.jpeg";
+import image5 from "../assets/sectorsimg/5.jpeg";
+import image6 from "../assets/sectorsimg/6.jpeg";
+import image7 from "../assets/sectorsimg/7.jpeg";
 
 import "../App.css";
 
@@ -33,9 +33,6 @@ function Sectors() {
                     >
                       <i class="bi bi-zoom-in"></i>
                     </a>
-                    <a href="project-details.html" title="More Details" class="details-link">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -51,9 +48,6 @@ function Sectors() {
                       class="glightbox preview-link"
                     >
                       <i class="bi bi-zoom-in"></i>
-                    </a>
-                    <a href="project-details.html" title="More Details" class="details-link">
-                      <i class="bi bi-link-45deg"></i>
                     </a>
                   </div>
                 </div>
@@ -71,9 +65,6 @@ function Sectors() {
                     >
                       <i class="bi bi-zoom-in"></i>
                     </a>
-                    <a href="project-details.html" title="More Details" class="details-link">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -89,9 +80,6 @@ function Sectors() {
                       class="glightbox preview-link"
                     >
                       <i class="bi bi-zoom-in"></i>
-                    </a>
-                    <a href="project-details.html" title="More Details" class="details-link">
-                      <i class="bi bi-link-45deg"></i>
                     </a>
                   </div>
                 </div>
@@ -109,9 +97,6 @@ function Sectors() {
                     >
                       <i class="bi bi-zoom-in"></i>
                     </a>
-                    <a href="project-details.html" title="More Details" class="details-link">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -128,9 +113,6 @@ function Sectors() {
                     >
                       <i class="bi bi-zoom-in"></i>
                     </a>
-                    <a href="project-details.html" title="More Details" class="details-link">
-                      <i class="bi bi-link-45deg"></i>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -146,9 +128,6 @@ function Sectors() {
                       class="glightbox preview-link"
                     >
                       <i class="bi bi-zoom-in"></i>
-                    </a>
-                    <a href="project-details.html" title="More Details" class="details-link">
-                      <i class="bi bi-link-45deg"></i>
                     </a>
                   </div>
                 </div>
