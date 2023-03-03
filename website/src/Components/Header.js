@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header({ display }) {
   return (
     <React.Fragment>
       <body>
@@ -41,43 +41,6 @@ function Header() {
                   <a href="#">
                     <span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i>
                   </a>
-                  <ul>
-                    <li>
-                      <a href="#">Dropdown 1</a>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">
-                        <span>Deep Dropdown</span>{" "}
-                        <i class="bi bi-chevron-down dropdown-indicator"></i>
-                      </a>
-                      <ul>
-                        <li>
-                          <a href="#">Deep Dropdown 1</a>
-                        </li>
-                        <li>
-                          <a href="#">Deep Dropdown 2</a>
-                        </li>
-                        <li>
-                          <a href="#">Deep Dropdown 3</a>
-                        </li>
-                        <li>
-                          <a href="#">Deep Dropdown 4</a>
-                        </li>
-                        <li>
-                          <a href="#">Deep Dropdown 5</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="#">Dropdown 2</a>
-                    </li>
-                    <li>
-                      <a href="#">Dropdown 3</a>
-                    </li>
-                    <li>
-                      <a href="#">Dropdown 4</a>
-                    </li>
-                  </ul>
                 </li>
                 <li>
                   <a href="/contact">Contact</a>
@@ -86,6 +49,23 @@ function Header() {
             </nav>
           </div>
         </header>
+
+        {display && (
+          <div
+            class="breadcrumbs d-flex align-items-center"
+            style={{ backgroundImage: "url(../assets/img/breadcrumbs-bg.jpg)" }}
+          >
+            <div class="container position-relative d-flex flex-column align-items-center">
+              <h2>About</h2>
+              <ol>
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>About</li>
+              </ol>
+            </div>
+          </div>
+        )}
       </body>
     </React.Fragment>
   );

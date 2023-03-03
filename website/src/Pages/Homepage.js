@@ -7,7 +7,7 @@ import Carousel from "../Components/Carousel";
 function Homepage() {
   return (
     <div>
-      <Header />
+      <Header display={false} />
 
       <section id="hero" class="hero">
         <div class="info d-flex align-items-center">

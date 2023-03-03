@@ -1,0 +1,43 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.col {
+  padding-bottom: 15px;
+}
+
+/* CSS */
+.pdf-icon {
+  display: inline-block;
+  padding: 0px 0px;
+  font-size: 14px;
+  line-height: 1;
+  color: #333;
+  background-color: white;
+
+  border-radius: 0px;
+}
+
+.pdf-icon i {
+  margin-right: 5px;
+  font-size: 18px;
+  color: #d33;
+}
+
+.brochure-btn span {
+  color: #0489bd;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.fa .fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+a {
+  color: black;
+}
