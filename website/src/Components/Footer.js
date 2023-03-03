@@ -1,5 +1,8 @@
 import React from "react";
 
+import Logo from "../assets/Logo2.png";
+import img from "../assets/footerimg.jpeg";
+
 function Footer() {
   return (
     <React.Fragment>
@@ -8,12 +11,14 @@ function Footer() {
           <div class="footer-content position-relative">
             <div class="container">
               <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-6 col-md-6">
                   <div class="footer-info">
-                    <h3>UpConstruction</h3>
+                    <a href="index.html" class="logo d-flex align-items-center">
+                      <img src={Logo} style={{ maxHeight: "90px" }} alt="" />
+                    </a>
                     <p>
-                      A108 Adam Street <br />
-                      NY 535022, USA
+                      To develop, provide and sustain economically feasible key solution for the
+                      market in UAE and the region by investing in talent and industry leaders..{" "}
                       <br />
                       <br />
                       <strong>Phone:</strong> +1 5589 55488 55
@@ -22,120 +27,47 @@ function Footer() {
                       <br />
                     </p>
                     <div class="social-links d-flex mt-3">
-                      <a href="#" class="d-flex align-items-center justify-content-center">
-                        <i class="bi bi-twitter"></i>
-                      </a>
-                      <a href="#" class="d-flex align-items-center justify-content-center">
-                        <i class="bi bi-facebook"></i>
-                      </a>
-                      <a href="#" class="d-flex align-items-center justify-content-center">
-                        <i class="bi bi-instagram"></i>
-                      </a>
-                      <a href="#" class="d-flex align-items-center justify-content-center">
-                        <i class="bi bi-linkedin"></i>
-                      </a>
+                      <img src={img} style={{ maxHeight: "80px" }} />
                     </div>
                   </div>
                 </div>
 
-                <div class="col-lg-2 col-md-3 footer-links">
-                  <h4>Useful Links</h4>
-                  <ul>
-                    <li>
-                      <a href="#">Home</a>
-                    </li>
-                    <li>
-                      <a href="#">About us</a>
-                    </li>
-                    <li>
-                      <a href="#">Services</a>
-                    </li>
-                    <li>
-                      <a href="#">Terms of service</a>
-                    </li>
-                    <li>
-                      <a href="#">Privacy policy</a>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-2 col-md-3 footer-links">
+                <div class="col-lg-3 col-md-3 footer-links">
                   <h4>Our Services</h4>
                   <ul>
                     <li>
-                      <a href="#">Web Design</a>
+                      <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="#">Web Development</a>
+                      <a href="/Aboutus">About Us</a>
                     </li>
                     <li>
-                      <a href="#">Product Management</a>
+                      <a href="/divisions">Divisions</a>
                     </li>
                     <li>
-                      <a href="#">Marketing</a>
+                      <a href="/Sectors">Sectors</a>
                     </li>
                     <li>
-                      <a href="#">Graphic Design</a>
+                      <a href="/Partners">Our Partners</a>
+                    </li>
+                    <li>
+                      <a href="/Downloads">Downloads</a>
+                    </li>
+                    <li>
+                      <a href="/contact">Contact Us</a>
                     </li>
                   </ul>
                 </div>
-
-                <div class="col-lg-2 col-md-3 footer-links">
-                  <h4>Hic solutasetp</h4>
-                  <ul>
-                    <li>
-                      <a href="#">Molestiae accusamus iure</a>
-                    </li>
-                    <li>
-                      <a href="#">Excepturi dignissimos</a>
-                    </li>
-                    <li>
-                      <a href="#">Suscipit distinctio</a>
-                    </li>
-                    <li>
-                      <a href="#">Dilecta</a>
-                    </li>
-                    <li>
-                      <a href="#">Sit quas consectetur</a>
-                    </li>
-                  </ul>
+                <div class="col-lg-3 col-md-3 footer-links">
+                  <h4>Contact</h4>
+                  <p>+971 2 667 1717</p>
+                  <p>
+                    Delma Street Sultan Manea Al Muhairi Building, Mez. Floor, P.O.Box: 111303, Abu
+                    Dhabi - U.A.E
+                  </p>
+                  <p>info@midmac.ae</p>
+                  <p>Sun to Thr 8:00 am to 6:00pm</p>
                 </div>
-
-                <div class="col-lg-2 col-md-3 footer-links">
-                  <h4>Nobis illum</h4>
-                  <ul>
-                    <li>
-                      <a href="#">Ipsam</a>
-                    </li>
-                    <li>
-                      <a href="#">Laudantium dolorum</a>
-                    </li>
-                    <li>
-                      <a href="#">Dinera</a>
-                    </li>
-                    <li>
-                      <a href="#">Trodelas</a>
-                    </li>
-                    <li>
-                      <a href="#">Flexo</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="footer-legal text-center position-relative">
-            <div class="container">
-              <div class="copyright">
-                &copy; Copyright{" "}
-                <strong>
-                  <span>UpConstruction</span>
-                </strong>
-                . All Rights Reserved
-              </div>
-              <div class="credits">
-                <a href="https://bootstrapmade.com/">BootstrapMade</a>
               </div>
             </div>
           </div>
