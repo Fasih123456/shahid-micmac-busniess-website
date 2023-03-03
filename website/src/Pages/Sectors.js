@@ -5,7 +5,7 @@ import Header from "../Components/Header";
 function Sectors() {
   return (
     <React.Fragment>
-      <Header display={true} />
+      <Header display={true} Route={"Sectors"} />
       <section id="projects" class="projects">
         <div class="container">
           <div class="portfolio-isotope">

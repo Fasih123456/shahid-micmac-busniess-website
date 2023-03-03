@@ -5,7 +5,7 @@ import Footer from "../Components/Footer";
 function Divisons() {
   return (
     <React.Fragment>
-      <Header display={true} />
+      <Header display={true} Route={"Divisions"} />
       <section id="services" class="services section-bg">
         <div class="container">
           <div class="row gy-4">

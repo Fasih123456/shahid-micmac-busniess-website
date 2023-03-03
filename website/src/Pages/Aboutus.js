@@ -5,7 +5,7 @@ import Footer from "../Components/Footer";
 function Aboutus() {
   return (
     <React.Fragment>
-      <Header display={true} />
+      <Header display={true} Route={"About Us"} />
       <main id="main">
         <section id="alt-services" class="alt-services">
           <div class="container">

@@ -9,7 +9,7 @@ import Accordion from "react-bootstrap/Accordion";
 function Downloads() {
   return (
     <React.Fragment>
-      <Header display={true} />
+      <Header display={true} Route={"Downloads"} />
       <main id="main">
         <section class="sample-page">
           <div class="container">

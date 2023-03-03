@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header({ display }) {
+function Header({ display, Route }) {
   return (
     <React.Fragment>
       <body>
@@ -15,35 +15,42 @@ function Header({ display }) {
 
             <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-            <nav id="navbar" class="navbar">
+            <nav id="navbar" className="navbar">
               <ul>
                 <li>
-                  <a href="/" class="active">
+                  <a href="/" className={Route === "Home" ? "active" : ""}>
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="/Aboutus">About Us</a>
-                </li>
-                <li>
-                  <a href="/divisions">Divisions</a>
-                </li>
-                <li>
-                  <a href="/Sectors">Sectors</a>
-                </li>
-                <li>
-                  <a href="/Partners">Our Partners</a>
-                </li>
-                <li>
-                  <a href="/Downloads">Downloads</a>
-                </li>
-                <li class="dropdown">
-                  <a href="#">
-                    <span>Dropdown</span> <i class="bi bi-chevron-down dropdown-indicator"></i>
+                  <a href="/Aboutus" className={Route === "About Us" ? "active" : ""}>
+                    About Us
                   </a>
                 </li>
                 <li>
-                  <a href="/contact">Contact</a>
+                  <a href="/divisions" className={Route === "Divisions" ? "active" : ""}>
+                    Divisions
+                  </a>
+                </li>
+                <li>
+                  <a href="/Sectors" className={Route === "Sectors" ? "active" : ""}>
+                    Sectors
+                  </a>
+                </li>
+                <li>
+                  <a href="/Partners" className={Route === "Our Partners" ? "active" : ""}>
+                    Our Partners
+                  </a>
+                </li>
+                <li>
+                  <a href="/Downloads" className={Route === "Downloads" ? "active" : ""}>
+                    Downloads
+                  </a>
+                </li>
+                <li>
+                  <a href="/contact" className={Route === "Contact" ? "active" : ""}>
+                    Contact
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -56,12 +63,12 @@ function Header({ display }) {
             style={{ backgroundImage: "url(../assets/img/breadcrumbs-bg.jpg)" }}
           >
             <div class="container position-relative d-flex flex-column align-items-center">
-              <h2>About</h2>
+              <h2>{Route}</h2>
               <ol>
                 <li>
                   <a href="index.html">Home</a>
                 </li>
-                <li>About</li>
+                <li>{Route}</li>
               </ol>
             </div>
           </div>

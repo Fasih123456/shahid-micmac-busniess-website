@@ -15,7 +15,7 @@ import "../App.css";
 function Partners() {
   return (
     <React.Fragment>
-      <Header display={true} />
+      <Header display={true} Route={"Our Partners"} />
       <main id="main">
         <section style={{ marginLeft: "5%" }}>
           <Container fluid>
