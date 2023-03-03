@@ -58,3 +58,15 @@ a {
   line-height: 30px;
   text-align: center;
 }
+
+.divimg {
+  max-height: 100px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.sectorimg {
+  width: 100%;
+}

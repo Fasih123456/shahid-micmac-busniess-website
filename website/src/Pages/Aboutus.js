@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
+import icon from "../assets/favicon.png";
+
 function Aboutus() {
   return (
     <React.Fragment>
@@ -57,12 +59,11 @@ function Aboutus() {
           <div class="container">
             <div class="row justify-content-around gy-4">
               <div class="col-lg-5 d-flex flex-column justify-content-center">
-                <h2>Non quasi officia eum nobis et rerum epudiandae rem voluptatem</h2>
+                <h2>Our Vision</h2>
                 <hr />
                 <p>
-                  Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at non. Ducimus
-                  maxime minima iste magni sit praesentium assumenda minus. Amet rerum saepe tempora
-                  vero.
+                  To develop, provide and sustain economically feasible key solution for the market
+                  in UAE and the region by investing in talent and industry leaders.
                 </p>
               </div>
 
@@ -87,23 +88,25 @@ function Aboutus() {
               ></div>
 
               <div class="col-lg-5 d-flex flex-column justify-content-center">
-                <h2>Non quasi officia eum nobis et rerum epudiandae rem voluptatem</h2>
+                <h2>Our Mission</h2>
                 <hr />
                 <p>
-                  Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at non. Ducimus
-                  maxime minima iste magni sit praesentium assumenda minus. Amet rerum saepe tempora
-                  vero.
+                  To turn prospective opportunities into profitable ventures and create value for
+                  our internal and external customers by utilizing own resources or by integrating
+                  capabilities or our partners while meeting the highest professional ethical and
+                  QHSE standards exceeding stake holder expectations.
                 </p>
               </div>
             </div>
           </div>
         </section>
         <section id="get-started" class="get-started section-bg">
-          <div class="container">
+          <div class="container" style={{ marginLeft: "5%", marginRight: "5%" }}>
             <div class="row justify-content-between gy-4">
-              <div class="content">
-                <h3>MIDMAC General Trading</h3>
-                <p>
+              <div class="content center">
+                <img src={icon} />
+                <h1>Our Managment</h1>
+                <p class="homepageP">
                   MIDMAC has been at the forefront of supporting the energy sector by utilizing
                   cutting-edge technologies from the world's leading solution providers. They have
                   successfully integrated divergent divisions that align with the technical and
@@ -111,7 +114,7 @@ function Aboutus() {
                   contracting practices of their major customers in the UAE and the region.
                 </p>
 
-                <p>
+                <p class="homepageP">
                   Established in 2014, MIDMAC serves the Oil & Gas, Power, Utility Sector, and
                   infrastructure in the UAE. Their mission is to provide their valuable clients with
                   the best possible technical solutions that meet their requirements in the most

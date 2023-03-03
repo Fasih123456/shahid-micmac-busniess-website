@@ -87,7 +87,7 @@ function Header({ display, Route }) {
       {display && (
         <div
           class="breadcrumbs d-flex align-items-center"
-          style={{ backgroundImage: "url(../assets/img/breadcrumbs-bg.jpg)" }}
+          style={{ backgroundImage: "url(../assets/img/breadcrumbs-bg.jpg)", marginTop: "150px" }}
         >
           <div class="container position-relative d-flex flex-column align-items-center">
             <h2>{Route}</h2>

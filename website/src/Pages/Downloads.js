@@ -13,7 +13,6 @@ function Downloads() {
       <main id="main">
         <section class="sample-page">
           <div class="container">
-            <p>You can duplicate this sample page and create any number of inner pages you like!</p>
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="1">
                 <Accordion.Header>PROCESS OF PREQUALIFICATION</Accordion.Header>
@@ -84,7 +83,7 @@ function Downloads() {
                 />
               </Accordion.Item>
 
-              <Accordion.Item>
+              <Accordion.Item eventKey="5">
                 <Accordion.Header>PHOTOS OF INSTALLTION</Accordion.Header>
                 <DownloadLink
                   text="MECHNICAL KEY INTERLOCKS INSTALLATION"
@@ -108,7 +107,7 @@ function Downloads() {
                 />
               </Accordion.Item>
 
-              <Accordion.Item>
+              <Accordion.Item eventKey="6">
                 <Accordion.Header>API STANDARDS</Accordion.Header>
                 <DownloadLink
                   text="API 527"
@@ -144,7 +143,7 @@ function Downloads() {
                 />
               </Accordion.Item>
 
-              <Accordion.Item>
+              <Accordion.Item eventKey="7">
                 <Accordion.Header>STANDARD DIMENSION</Accordion.Header>
                 <DownloadLink
                   text="ANSI,ASTM and API Designations for Piping"
@@ -176,7 +175,7 @@ function Downloads() {
                 />
               </Accordion.Item>
 
-              <Accordion.Item>
+              <Accordion.Item eventKey="8">
                 <Accordion.Header>Orginization Structure</Accordion.Header>
               </Accordion.Item>
             </Accordion>
