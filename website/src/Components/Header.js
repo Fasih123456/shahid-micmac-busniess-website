@@ -93,7 +93,7 @@ function Header({ display, Route }) {
             <h2>{Route}</h2>
             <ol>
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>{Route}</li>
             </ol>
