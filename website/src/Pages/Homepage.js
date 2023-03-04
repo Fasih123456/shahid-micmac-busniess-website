@@ -34,7 +34,7 @@ function Homepage() {
 
       <main id="main">
         <section id="get-started" class="get-started section-bg">
-          <div class="container" style={{ marginLeft: "5%", marginRight: "5%" }}>
+          <div class="container center">
             <div class="row justify-content-between gy-4">
               <div class="content center">
                 <img src={icon} />
