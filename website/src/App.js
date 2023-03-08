@@ -7,6 +7,15 @@ import Sectors from "./Pages/Sectors";
 import Aboutus from "./Pages/Aboutus";
 import ErrorPage from "./Pages/404";
 import Contact from "./Pages/Contact";
+import Refining from "./Pages/Subpages/Sectors/Refining";
+import Power from "./Pages/Subpages/Sectors/Power";
+import PertoChemical from "./Pages/Subpages/Sectors/PertoChemical";
+import OilGas from "./Pages/Subpages/Sectors/OilGas";
+import Marine from "./Pages/Subpages/Sectors/Marine";
+import Infustructure from "./Pages/Subpages/Sectors/Infustructure";
+import Industries from "./Pages/Subpages/Sectors/Industries";
+
+import "./App.css";
 
 function App() {
   return (
@@ -17,6 +26,17 @@ function App() {
         <Route path="/Downloads" element={<Downloads />} />
         <Route path="/Partners" element={<Partners />} />
         <Route path="/Sectors" element={<Sectors />} />
+        <Route path="/Sectors/Refining" element={<Refining />} />
+        <Route path="/Sectors/Marine" element={<Marine />} />
+        <Route path="/Sectors/OilGas" element={<OilGas />} />
+        <Route path="/Sectors/Power" element={<Power />} />
+        <Route path="/Sectors/Industries" element={<Industries />} />
+        <Route path="/Sectors/Infustructure" element={<Infustructure />} />
+        <Route path="/Sectors/PertoChemical" element={<PertoChemical />} />
+        <Route path="/Sectors/Refining" element={<Refining />} />
+        <Route path="/Sectors/Refining" element={<Refining />} />
+        <Route path="/Sectors/Refining" element={<Refining />} />
+
         <Route path="/Aboutus" element={<Aboutus />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<ErrorPage />} />

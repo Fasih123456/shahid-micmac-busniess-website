@@ -2,6 +2,8 @@ import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
+import structure from "../assets/structure.png";
+
 import DownloadLink from "../Components/DownloadLink";
 
 import Accordion from "react-bootstrap/Accordion";
@@ -170,13 +172,16 @@ function Downloads() {
                   link="https://fine.pk/sites/midmac.ae/pdf/5%20-%20STANDARD%20DIMENSION/Flanges%20Standard.pdf"
                 />
                 <DownloadLink
-                  text="Piping Schdule"
+                  text="Piping Schedule"
                   link="https://fine.pk/sites/midmac.ae/pdf/5%20-%20STANDARD%20DIMENSION/Piping%20Schdule.pdf"
                 />
               </Accordion.Item>
 
               <Accordion.Item eventKey="8">
-                <Accordion.Header>Orginization Structure</Accordion.Header>
+                <Accordion.Header>ORGANIZATION STRUCTURE</Accordion.Header>
+                <Accordion.Body>
+                  <img src={structure} style={{ maxHeight: "50vw" }} />
+                </Accordion.Body>
               </Accordion.Item>
             </Accordion>
           </div>

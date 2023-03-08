@@ -5,11 +5,11 @@ import icon from "../assets/favicon.png";
 import Carousel from "../Components/Carousel";
 
 //Carousel Imgaes
-import image1 from "../assets/carousalimg/Picture1.jpg";
-import image2 from "../assets/carousalimg/Picture2.jpg";
-import image3 from "../assets/carousalimg/Picture3.jpg";
-import image4 from "../assets/carousalimg/Picture4.jpg";
-import image5 from "../assets/carousalimg/Picture5.jpg";
+import image1 from "../assets/img/hero-carousel/hero-carousel-1.jpg";
+import image2 from "../assets/img/hero-carousel/hero-carousel-2.jpg";
+import image3 from "../assets/img/hero-carousel/hero-carousel-3.jpg";
+import image4 from "../assets/img/hero-carousel/hero-carousel-4.jpg";
+import image5 from "../assets/img/hero-carousel/hero-carousel-5.jpg";
 
 function Homepage() {
   return (
@@ -21,7 +21,7 @@ function Homepage() {
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-6 text-center">
-                <h2 data-aos="fade-down">
+                <h2 style={{ paddingTop: "50%" }}>
                   Welcome to <span>MIDMAC</span>
                 </h2>
               </div>
