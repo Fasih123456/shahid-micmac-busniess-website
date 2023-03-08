@@ -64,6 +64,21 @@ function Footer() {
                 </div>
               </div>
             </div>
+
+            <div class="footer-legal text-center position-relative">
+              <div class="container">
+                <div class="copyright">
+                  &copy; Copyright{" "}
+                  <strong>
+                    <span>Sysmologic</span>
+                  </strong>
+                  . All Rights Reserved
+                </div>
+                <div class="credits">
+                  Designed by <a href="https://sysmologic.com/">Sysmologic</a>
+                </div>
+              </div>
+            </div>
           </div>
         </footer>
 
