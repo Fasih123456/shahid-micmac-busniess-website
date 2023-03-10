@@ -25,7 +25,7 @@ function Header({ display, Route }) {
           <header id="header" class="header d-flex align-items-center">
             <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
               <Container fluid>
-                <Navbar.Brand href="#home" id="name-title">
+                <Navbar.Brand href="/" id="name-title">
                   <img src={Logo} class="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav navbar-toggler" />

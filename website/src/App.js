@@ -32,10 +32,8 @@ function App() {
         <Route path="/Sectors/OilGas" element={<OilGas />} />
         <Route path="/Sectors/Power" element={<Power />} />
         <Route path="/Sectors/Industries" element={<Industries />} />
-        <Route path="/Sectors/Infustructure" element={<Infustructure />} />
-        <Route path="/Sectors/PertoChemical" element={<PertoChemical />} />
-        <Route path="/Sectors/Refining" element={<Refining />} />
-        <Route path="/Sectors/Refining" element={<Refining />} />
+        <Route path="/Sectors/Infrastructure" element={<Infustructure />} />
+        <Route path="/Sectors/Petrochemical" element={<PertoChemical />} />
         <Route path="/Sectors/Refining" element={<Refining />} />
 
         <Route path="/Aboutus" element={<Aboutus />} />
