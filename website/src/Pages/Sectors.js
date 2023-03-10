@@ -29,6 +29,9 @@ function Sectors() {
                     <a href={image1} title="Remodeling 1" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
+                    <a href={"/Sectors/OilGas"} title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -57,6 +60,10 @@ function Sectors() {
                     <a href={image3} title="Repairs 1" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
+
+                    <a href={"/Sectors/Refining"} title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -68,6 +75,9 @@ function Sectors() {
                     <p>Petrochemicals</p>
                     <a href={image4} title="Repairs 1" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
+                    </a>
+                    <a href={"/Sectors/Petrochemical"} title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
                     </a>
                   </div>
                 </div>
@@ -81,6 +91,9 @@ function Sectors() {
                     <a href={image5} title="Remodeling 2" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
+                    <a href={"/Sectors/Marine"} title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -93,6 +106,9 @@ function Sectors() {
                     <a href={image6} title="Construction 2" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
+                    <a href={"/Sectors/Industries"} title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -104,6 +120,9 @@ function Sectors() {
                     <p>Utility & Infrastructure</p>
                     <a href={image7} title="Repairs 2" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
+                    </a>
+                    <a href={"/Sectors/Infrastructure"} title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
                     </a>
                   </div>
                 </div>
