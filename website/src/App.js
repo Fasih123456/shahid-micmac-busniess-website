@@ -16,6 +16,7 @@ import Infustructure from "./Pages/Subpages/Sectors/Infustructure";
 import Industries from "./Pages/Subpages/Sectors/Industries";
 
 import "./App.css";
+import "./assets/css/main.css";
 
 function App() {
   return (

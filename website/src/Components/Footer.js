@@ -14,7 +14,7 @@ function Footer() {
                 <div class="col-lg-6 col-md-6">
                   <div class="footer-info">
                     <a href="/" class="logo d-flex align-items-center">
-                      <img src={Logo} style={{ maxHeight: "90px" }} alt="" />
+                      <img src={Logo} style={{ maxHeight: "70px" }} class="logo" alt="" />
                     </a>
                     <p style={{ paddingTop: "20px" }}>
                       To develop, provide and sustain economically feasible key solution for the
@@ -22,7 +22,7 @@ function Footer() {
                       <br />
                     </p>
                     <div class="social-links d-flex mt-3">
-                      <img src={img} style={{ maxHeight: "80px" }} />
+                      <img src={img} class="logo" />
                     </div>
                   </div>
                 </div>

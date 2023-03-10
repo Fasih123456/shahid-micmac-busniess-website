@@ -1,0 +1,52 @@
+@media (min-width: 800px) {
+  .navbar {
+    position: static !important;
+    top: auto !important;
+    right: auto !important;
+    width: auto !important;
+    max-width: none !important;
+    bottom: auto !important;
+    transition: none !important;
+    z-index: auto !important;
+  }
+
+  #header {
+    height: 150px;
+  }
+}
+
+a.nav-link {
+  color: black !important;
+}
+
+#header {
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.navbar {
+  width: 100% !important; /*might need important*/
+  height: 100%;
+}
+
+/**/
+.header {
+  transition: height 0.3s ease-in-out;
+}
+
+.navbar {
+  padding-top: 1.5rem; /* add some padding to the top and bottom of the navbar */
+  padding-bottom: 1.5rem;
+}
+
+.header.show + .navbar {
+  padding-top: 3.5rem; /* update padding when dropdown is opened */
+  padding-bottom: 3.5rem;
+}
+
+.header.show + .navbar + .container-fluid {
+  padding-top: 4rem; /* update padding of content when dropdown is opened */
+}

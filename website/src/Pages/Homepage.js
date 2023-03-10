@@ -10,27 +10,41 @@ import image2 from "../assets/img/hero-carousel/hero-carousel-2.jpg";
 import image3 from "../assets/img/hero-carousel/hero-carousel-3.jpg";
 import image4 from "../assets/img/hero-carousel/hero-carousel-4.jpg";
 import image5 from "../assets/img/hero-carousel/hero-carousel-5.jpg";
+import { useLocation } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 
 function Homepage() {
+  const location = useLocation();
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    // update the viewport width state when the window is resized
+    const handleResize = () => setViewportWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div>
       <Header display={false} Route={"Home"} />
 
-      <section id="hero" class="hero" style={{ marginTop: "150px" }}>
-        <div class="info d-flex align-items-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-6 text-center">
-                <h2 style={{ paddingTop: "50%" }}>
-                  Welcome to <span>MIDMAC</span>
-                </h2>
+      {viewportWidth > 800 && (
+        <section id="hero" class="hero">
+          <div class="info d-flex align-items-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <h2 style={{ paddingTop: "50%" }}>
+                    Welcome to <span>MIDMAC</span>
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <Carousel images={[image1, image2, image3, image4, image5]} />
-      </section>
+          <Carousel images={[image1, image2, image3, image4, image5]} />
+        </section>
+      )}
 
       <main id="main">
         <section id="get-started" class="get-started section-bg">

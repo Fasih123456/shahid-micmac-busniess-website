@@ -12,12 +12,7 @@ function Carousel({ images }) {
   }, [images]);
 
   return (
-    <div
-      id="hero-carousel"
-      className="carousel slide"
-      data-bs-ride="carousel"
-      data-bs-interval="false"
-    >
+    <div id="hero-carousel" className="carousel slide">
       {images.map((image, index) => (
         <div
           key={index}

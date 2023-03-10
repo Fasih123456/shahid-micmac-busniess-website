@@ -1,4 +1,3 @@
-import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
@@ -13,9 +12,22 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
+import React, { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import "../App.css";
 
 function Divisons() {
+  const location = useLocation();
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    // update the viewport width state when the window is resized
+    const handleResize = () => setViewportWidth(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <React.Fragment>
       <Header display={true} Route={"Divisions"} />
@@ -26,9 +38,12 @@ function Divisons() {
               <div class="service-item position-relative">
                 <Container>
                   <Row>
-                    <Col xs={3}>
-                      <img src={image1} class="divimg" />
-                    </Col>
+                    {viewportWidth > 800 && (
+                      <Col xs={3}>
+                        <img src={image1} class="divimg" />
+                      </Col>
+                    )}
+
                     <Col>
                       <h3>Value Automation</h3>
                       <ul>
@@ -53,9 +68,11 @@ function Divisons() {
               <div class="service-item position-relative">
                 <Container>
                   <Row>
-                    <Col xs={3}>
-                      <img src={image2} class="divimg" />
-                    </Col>
+                    {viewportWidth > 800 && (
+                      <Col xs={3}>
+                        <img src={image2} class="divimg" />
+                      </Col>
+                    )}
                     <Col>
                       <h3>Enviromental & Renewable Energy</h3>
                       <ul>
@@ -77,9 +94,11 @@ function Divisons() {
               <div class="service-item position-relative">
                 <Container>
                   <Row>
-                    <Col xs={3}>
-                      <img src={image3} class="divimg" />
-                    </Col>
+                    {viewportWidth > 800 && (
+                      <Col xs={3}>
+                        <img src={image3} class="divimg" />
+                      </Col>
+                    )}
                     <Col>
                       <h3>Enviromental & Renewable Energy</h3>
                       <ul>
@@ -107,9 +126,11 @@ function Divisons() {
               <div class="service-item position-relative">
                 <Container>
                   <Row>
-                    <Col xs={3}>
-                      <img src={image4} class="divimg" />
-                    </Col>
+                    {viewportWidth > 800 && (
+                      <Col xs={3}>
+                        <img src={image4} class="divimg" />
+                      </Col>
+                    )}
                     <Col>
                       <h3>Rotating Equipment</h3>
                       <ul>
@@ -128,9 +149,11 @@ function Divisons() {
               <div class="service-item position-relative">
                 <Container>
                   <Row>
-                    <Col xs={3}>
-                      <img src={image5} class="divimg" />
-                    </Col>
+                    {viewportWidth > 800 && (
+                      <Col xs={3}>
+                        <img src={image5} class="divimg" />
+                      </Col>
+                    )}
                     <Col>
                       <h3>Service & Value-Added Division</h3>
                       <ul>

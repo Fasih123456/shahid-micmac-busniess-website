@@ -70,3 +70,17 @@ li {
 .sectorimg {
   width: 100%;
 }
+
+/*mobile view */
+@media (max-width: 800px) {
+  .logo {
+    max-width: 200px;
+  }
+}
+
+/*desktop view */
+@media (min-width: 800px) {
+  .logo {
+    max-width: 400px;
+  }
+}

@@ -1,93 +1,49 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import Offcanvas from "react-bootstrap/Offcanvas";
+import { useLocation } from "react-router-dom";
+
+import Navigation from "./Navigation";
 
 import Logo from "../assets/Logo2.png";
 
+import "../Personalassets/Header.css";
+
 function Header({ display, Route }) {
+  const location = useLocation();
+  const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+
   return (
     <React.Fragment>
-      <body>
-        <header id="header" class="header d-flex align-items-center" style={{ height: "150px" }}>
-          <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-            <a href="/" class="logo d-flex align-items-center">
-              <img src={Logo} alt="" />
-            </a>
-
-            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-            <nav id="navbar" className="navbar">
-              <ul>
-                <li>
-                  <a
-                    href="/"
-                    className={Route === "Home" ? "active" : ""}
-                    style={{ color: "black" }}
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/Aboutus"
-                    className={Route === "About Us" ? "active" : ""}
-                    style={{ color: "black" }}
-                  >
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/divisions"
-                    className={Route === "Divisions" ? "active" : ""}
-                    style={{ color: "black" }}
-                  >
-                    Divisions
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/Sectors"
-                    className={Route === "Sectors" ? "active" : ""}
-                    style={{ color: "black" }}
-                  >
-                    Sectors
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/Partners"
-                    className={Route === "Our Partners" ? "active" : ""}
-                    style={{ color: "black" }}
-                  >
-                    Our Partners
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/Downloads"
-                    className={Route === "Downloads" ? "active" : ""}
-                    style={{ color: "black" }}
-                  >
-                    Downloads
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/contact"
-                    className={Route === "Contact" ? "active" : ""}
-                    style={{ color: "black" }}
-                  >
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </header>
-      </body>
+      <div style={{ width: "100%" }}>
+        <Container fluid>
+          <header id="header" class="header d-flex align-items-center">
+            <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
+              <Container fluid>
+                <Navbar.Brand href="#home" id="name-title">
+                  <img src={Logo} class="logo" />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav navbar-toggler" />
+                <Navbar.Collapse id="responsive-navbar-nav navbar-collapse justify-content-end">
+                  <Nav className="me-auto" style={{ marginRight: "0px !important" }}></Nav>
+                  <Nav>
+                    <Navigation />
+                  </Nav>
+                </Navbar.Collapse>
+              </Container>
+            </Navbar>
+          </header>
+        </Container>
+      </div>
       {display && (
         <div
           class="breadcrumbs d-flex align-items-center"
-          style={{ backgroundImage: "url(../assets/img/breadcrumbs-bg.jpg)", marginTop: "150px" }}
+          style={{ backgroundImage: "url(../assets/img/breadcrumbs-bg.jpg)" }}
         >
           <div class="container position-relative d-flex flex-column align-items-center">
             <h2>{Route}</h2>

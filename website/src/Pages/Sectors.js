@@ -26,11 +26,7 @@ function Sectors() {
                   <img src={image1} class="img-fluid sectorimg" alt="" />
                   <div class="portfolio-info">
                     <p>Oil & Gas</p>
-                    <a
-                      href="assets/img/projects/remodeling-1.jpg"
-                      title="Remodeling 1"
-                      class="glightbox preview-link"
-                    >
+                    <a href={image1} title="Remodeling 1" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
                   </div>
@@ -42,12 +38,12 @@ function Sectors() {
                   <img src={image2} class="img-fluid sectorimg" alt="" />
                   <div class="portfolio-info">
                     <p>Power</p>
-                    <a
-                      href="assets/img/projects/construction-1.jpg"
-                      title="Construction 1"
-                      class="glightbox preview-link"
-                    >
+                    <a href={image2} title="Construction 1" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
+                    </a>
+
+                    <a href={"/Sectors/Power"} title="More Details" class="details-link">
+                      <i class="bi bi-link-45deg"></i>
                     </a>
                   </div>
                 </div>
@@ -58,11 +54,7 @@ function Sectors() {
                   <img src={image3} class="img-fluid sectorimg" alt="" />
                   <div class="portfolio-info">
                     <p>Refining</p>
-                    <a
-                      href="assets/img/projects/repairs-1.jpg"
-                      title="Repairs 1"
-                      class="glightbox preview-link"
-                    >
+                    <a href={image3} title="Repairs 1" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
                   </div>
@@ -74,11 +66,7 @@ function Sectors() {
                   <img src={image4} class="img-fluid sectorimg" alt="" />
                   <div class="portfolio-info">
                     <p>Petrochemicals</p>
-                    <a
-                      href="assets/img/projects/design-1.jpg"
-                      title="Repairs 1"
-                      class="glightbox preview-link"
-                    >
+                    <a href={image4} title="Repairs 1" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
                   </div>
@@ -90,11 +78,7 @@ function Sectors() {
                   <img src={image5} class="img-fluid sectorimg" alt="" />
                   <div class="portfolio-info">
                     <p>Marine</p>
-                    <a
-                      href="assets/img/projects/remodeling-2.jpg"
-                      title="Remodeling 2"
-                      class="glightbox preview-link"
-                    >
+                    <a href={image5} title="Remodeling 2" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
                   </div>
@@ -106,11 +90,7 @@ function Sectors() {
                   <img src={image6} class="img-fluid sectorimg" alt="" />
                   <div class="portfolio-info">
                     <p>Major & Small Industries</p>
-                    <a
-                      href="assets/img/projects/construction-2.jpg"
-                      title="Construction 2"
-                      class="glightbox preview-link"
-                    >
+                    <a href={image6} title="Construction 2" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
                   </div>
@@ -122,11 +102,7 @@ function Sectors() {
                   <img src={image7} class="img-fluid sectorimg" alt="" />
                   <div class="portfolio-info">
                     <p>Utility & Infrastructure</p>
-                    <a
-                      href="assets/img/projects/repairs-2.jpg"
-                      title="Repairs 2"
-                      class="glightbox preview-link"
-                    >
+                    <a href={image7} title="Repairs 2" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
                   </div>
