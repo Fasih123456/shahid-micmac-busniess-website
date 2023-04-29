@@ -28,10 +28,10 @@ function Sectors() {
                 style={{ maxHeight: "100%" }}
               >
                 <div class="portfolio-content h-100">
-                  <img src={oilGas} class="img-fluid sectorimg" alt="" />
+                  <img src={image1} class="img-fluid sectorimg" alt="" />
                   <div class="portfolio-info">
                     <p>Oil & Gas</p>
-                    <a href={oilGas} title="Remodeling 1" class="glightbox preview-link">
+                    <a href={image1} title="Remodeling 1" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
                     <a href={"/Sectors/OilGas"} title="More Details" class="details-link">
