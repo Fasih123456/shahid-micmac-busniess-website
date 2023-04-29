@@ -1,7 +1,7 @@
 import React from "react";
 
 import Logo from "../assets/Logo2.png";
-import img from "../assets/footerimg.jpeg";
+import img from "../assets/isophoto.jpg";
 
 function Footer() {
   return (
@@ -18,7 +18,7 @@ function Footer() {
                     </a>
                     <p style={{ paddingTop: "20px" }}>
                       To develop, provide and sustain economically feasible key solution for the
-                      market in UAE and the region by investing in talent and industry leaders..{" "}
+                      market in UAE and the region by investing in talent and industry leaders.
                       <br />
                     </p>
                     <div class="social-links d-flex mt-3">

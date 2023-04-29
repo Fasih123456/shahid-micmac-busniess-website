@@ -11,6 +11,8 @@ import image5 from "../assets/sectorsimg/5.jpeg";
 import image6 from "../assets/sectorsimg/6.jpeg";
 import image7 from "../assets/sectorsimg/7.jpeg";
 
+import oilGas from "../assets/oilgasout.jpg";
+
 import "../App.css";
 
 function Sectors() {
@@ -21,12 +23,15 @@ function Sectors() {
         <div class="container">
           <div class="portfolio-isotope">
             <div class="row gy-4 portfolio-container">
-              <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div
+                class="col-lg-4 col-md-6 portfolio-item filter-remodeling"
+                style={{ maxHeight: "100%" }}
+              >
                 <div class="portfolio-content h-100">
-                  <img src={image1} class="img-fluid sectorimg" alt="" />
+                  <img src={oilGas} class="img-fluid sectorimg" alt="" />
                   <div class="portfolio-info">
                     <p>Oil & Gas</p>
-                    <a href={image1} title="Remodeling 1" class="glightbox preview-link">
+                    <a href={oilGas} title="Remodeling 1" class="glightbox preview-link">
                       <i class="bi bi-zoom-in"></i>
                     </a>
                     <a href={"/Sectors/OilGas"} title="More Details" class="details-link">
