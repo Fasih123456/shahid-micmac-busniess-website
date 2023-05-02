@@ -25,7 +25,7 @@ function Partners() {
       <Header display={true} Route={"Our Partners"} />
       <main id="main">
         <section style={{ marginLeft: "5%" }}>
-          <Container fluid>
+          {/* <Container fluid>
             <Row>
               <Col>
                 <Card className="bg-dark text-white" style={{ width: "300px" }}>
@@ -56,7 +56,30 @@ function Partners() {
               </Col>
               <Col></Col>
             </Row>
-          </Container>
+          </Container> */}
+            <h1 style={{color: 'var(--color-primary)', fontSize:'2vw',fontFamily: 'var(--font-secondary)'}} >Scope of supply & installation:</h1>
+<ul style={{color: 'black', fontSize:'1vw',fontFamily: 'var(--font-secondary)'}} >
+ <li> Mechanical Key Interlocks</li>
+ <li> Passive Fire Protection</li>
+ <li> Actuators- Electric, Pneumatic & Electrohydraulic</li>
+ <li> Telecom & F&G (CCTV,</li>
+ <li> HVAC System</li>
+</ul>
+<h1 style={{color:"var(--color-primary)", fontSize:'2vw',fontFamily: 'var(--font-secondary)'}} >Scope of supply:</h1>
+<ul style={{color: 'black', fontSize:'1vw',fontFamily: 'var(--font-secondary)'}} >
+ <li> Choke Valve</li>
+ <li> Control Valves-All type</li>
+ <li> MOVS,ESD</li>
+ <li> Manual Valves (Gate, Globe Check & Butterfly Valve)</li>
+ <li> Field Instruments (Gauges & Transmitters)</li>
+ <li> Cables-Electrical & Instruments</li>
+ <li> EXd Enclosures & Junction Box</li>
+ <li> Explosion Proof Lights</li>
+ <li> Sewage Treatment Packages</li>
+ <li> HVAC & Industrial Valve</li>
+</ul>
+
+
         </section>
       </main>
       <Footer />
