@@ -57,16 +57,16 @@ function Partners() {
               <Col></Col>
             </Row>
           </Container> */}
-            <h1 style={{color: 'var(--color-primary)', fontSize:'2vw',fontFamily: 'var(--font-secondary)'}} >Scope of supply & installation:</h1>
-<ul style={{color: 'black', fontSize:'1vw',fontFamily: 'var(--font-secondary)'}} >
+            <h1 style={{color: 'var(--color-primary)', fontSize:'2rem',fontFamily: 'var(--font-secondary)'}} >Scope of supply & installation:</h1>
+<ul style={{color: 'black', fontSize:'1.2rem',fontFamily: 'var(--font-secondary)'}} >
  <li> Mechanical Key Interlocks</li>
  <li> Passive Fire Protection</li>
  <li> Actuators- Electric, Pneumatic & Electrohydraulic</li>
  <li> Telecom & F&G (CCTV,</li>
  <li> HVAC System</li>
 </ul>
-<h1 style={{color:"var(--color-primary)", fontSize:'2vw',fontFamily: 'var(--font-secondary)'}} >Scope of supply:</h1>
-<ul style={{color: 'black', fontSize:'1vw',fontFamily: 'var(--font-secondary)'}} >
+<h1 style={{color:"var(--color-primary)", fontSize:'2rem',fontFamily: 'var(--font-secondary)'}} >Scope of supply:</h1>
+<ul style={{color: 'black', fontSize:'1.2rem',fontFamily: 'var(--font-secondary)'}} >
  <li> Choke Valve</li>
  <li> Control Valves-All type</li>
  <li> MOVS,ESD</li>
