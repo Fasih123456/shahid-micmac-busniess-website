@@ -4,7 +4,7 @@ import Footer from "../../../Components/Footer";
 
 import NavigationSectors from "../../../Components/NavigationSectors";
 
-import image from "../../../assets/sectorsimg/refining.jpg";
+import image from "../../../assets/sectorsimg/refine2.jpg";
 
 function Refining() {
   return (

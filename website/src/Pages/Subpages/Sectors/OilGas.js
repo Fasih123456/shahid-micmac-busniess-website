@@ -4,7 +4,7 @@ import Footer from "../../../Components/Footer";
 
 import NavigationSectors from "../../../Components/NavigationSectors";
 
-import image from "../../../assets/sectorsimg/oilgas.jpg";
+import image from "../../../assets/sectorsimg/oil2.jpg";
 
 function OilGas() {
   return (

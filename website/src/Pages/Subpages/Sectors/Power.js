@@ -4,7 +4,7 @@ import Footer from "../../../Components/Footer";
 
 import NavigationSectors from "../../../Components/NavigationSectors";
 
-import image from "../../../assets/sectorsimg/power.jpg";
+import image from "../../../assets/sectorsimg/power2.jpg";
 
 function Power() {
   return (

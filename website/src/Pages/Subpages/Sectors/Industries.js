@@ -4,7 +4,7 @@ import Footer from "../../../Components/Footer";
 
 import NavigationSectors from "../../../Components/NavigationSectors";
 
-import image from "../../../assets/sectorsimg/industries.jpg";
+import image from "../../../assets/sectorsimg/industries2.jpg";
 
 function Industries() {
   return (
