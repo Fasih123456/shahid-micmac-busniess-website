@@ -9,6 +9,7 @@ function Navigation() {
       <Nav.Link href="/Partners">Partners</Nav.Link>
       <Nav.Link href="/Sectors">Sectors</Nav.Link>
       <Nav.Link href="/Aboutus">About Us</Nav.Link>
+      <Nav.Link href="/downloads">Downloads</Nav.Link>
       <Nav.Link href="/contact">Contact</Nav.Link>
     </React.Fragment>
   );
