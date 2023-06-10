@@ -23,16 +23,15 @@ function Aboutus() {
               <div class="col-lg-5 d-flex flex-column justify-content-center">
                 <h3>MIDMAC General Trading</h3>
                 <p>
-                  MIDMAC was established in 2014 and is currently led by its CEO, Mr. Thani Jumaa Al
-                  Rumaithi, a highly reputable name in the UAE. Our main objective is to provide
-                  local companies in the region with the most cost-effective products and solutions
-                  in a timely manner. We strive to utilize the most effective technologies and
-                  practices to serve various sectors, including:
+                  MIDMAC was established in 2014 and its CEO Mr. Thani Jumaa Al Rumaithi. One of the
+                  well reputed name in UAE, our mission is to provide local companies and the region
+                  with cost effective products and solutions in a timely manner using most effective
+                  talent ?, technologies and practices for serving in various sectors as follow:
                 </p>
 
                 <ul class="sector-list">
                   <li class="sector-item" style={{ fontWeight: "bold" }}>
-                    Oil & Gas
+                    Oil & Gas.
                   </li>
                   <li class="sector-item" style={{ fontWeight: "bold" }}>
                     Power
@@ -93,9 +92,9 @@ function Aboutus() {
                 <hr />
                 <p>
                   To turn prospective opportunities into profitable ventures and create value for
-                  our internal and external customers by utilizing own resources or by integrating
-                  capabilities or our partners while meeting the highest professional ethical and
-                  QHSE standards exceeding stake holder expectations.
+                  our internal and external customers by utilizing own resources or(instead &) by
+                  integrating capabilities of our partners while meeting the highest professional
+                  ethical and QHSE standards exceeding stake holder expectations.
                 </p>
               </div>
             </div>
@@ -106,20 +105,17 @@ function Aboutus() {
             <div class="row justify-content-between gy-4">
               <div class="content center">
                 <img src={icon} />
-                <h1>Our Managment</h1>
+                <h1>Management</h1>
                 <p class="homepageP">
-                  MIDMAC has been at the forefront of supporting the energy sector by utilizing
-                  cutting-edge technologies from the world's leading solution providers. They have
-                  successfully integrated divergent divisions that align with the technical and
-                  engineering organization while being well-versed in the procurement and
-                  contracting practices of their major customers in the UAE and the region.
+                  Mr. Thani Al Remeithi is the former Director at the Naturalization Department of
+                  the Federal Naturalization & Residency Directorate, he is one of the well reputed
+                  names in UAE.
                 </p>
 
                 <p class="homepageP">
-                  Established in 2014, MIDMAC serves the Oil & Gas, Power, Utility Sector, and
-                  infrastructure in the UAE. Their mission is to provide their valuable clients with
-                  the best possible technical solutions that meet their requirements in the most
-                  cost-effective manner without compromising on quality for sales and services.
+                  His mission is to provide local companies and the region with cost effective
+                  products and solutions in a timely manner using most effective talents,
+                  technologies and practices for serving in various sectors
                 </p>
               </div>
             </div>

@@ -62,10 +62,10 @@ function Homepage() {
                 </p>
 
                 <p class="homepageP">
-                  Established in 2014, MIDMAC serves the Oil & Gas, Power, Utility Sector, and
-                  infrastructure in the UAE. Their mission is to provide their valuable clients with
-                  the best possible technical solutions that meet their requirements in the most
-                  cost-effective manner without compromising on quality for sales and services.
+                  Established in 2014, MIDMAC serves Oil & Gas, Power, Utility and Infrastructure
+                  Sector in UAE. Our mission is to provide their valuable clients with the best
+                  possible technical solutions that meet their requirements in the most
+                  cost-effective manner without compromising on quality for Sales & Services.
                 </p>
               </div>
             </div>

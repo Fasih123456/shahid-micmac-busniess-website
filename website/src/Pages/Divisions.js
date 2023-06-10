@@ -74,7 +74,7 @@ function Divisons() {
                       </Col>
                     )}
                     <Col>
-                      <h3>Enviromental & Renewable Energy</h3>
+                      <h3>Environmental & Renewable Energy</h3>
                       <ul>
                         <li>Water Distribution Network</li>
                         <li>Waste Water Applications</li>
@@ -100,7 +100,7 @@ function Divisons() {
                       </Col>
                     )}
                     <Col>
-                      <h3>Enviromental & Renewable Energy</h3>
+                      <h3>Environmental & Renewable Energy</h3>
                       <ul>
                         <li>
                           Pressure gauge, Transmitter, Switch, Logger & Converter, Regulation,
