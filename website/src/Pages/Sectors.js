@@ -13,12 +13,14 @@ import image7 from "../assets/sectorsimg/UI.jpg";
 
 import oilGas from "../assets/oilgasout.jpg";
 
+import heading from "../assets/sectorsimg/heading.jpg";
+
 import "../App.css";
 
 function Sectors() {
   return (
     <React.Fragment>
-      <Header display={true} Route={"Sectors"} />
+      <Header display={true} Route={"Sectors"} image={heading} />
       <section id="projects" class="projects">
         <div class="container">
           <div class="portfolio-isotope">
@@ -30,6 +32,7 @@ function Sectors() {
                 <div class="portfolio-content h-100">
                   <img src={image1} class="img-fluid sectorimg" alt="" style={{ height: "30vh" }} />
                   <div class="portfolio-info">
+                    <h4>Test</h4>
                     <p>Oil & Gas</p>
                     <a
                       href={image1}

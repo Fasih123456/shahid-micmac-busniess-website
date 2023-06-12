@@ -5,11 +5,13 @@ import icon from "../assets/favicon.png";
 import Carousel from "../Components/Carousel";
 
 //Carousel Imgaes
-import image1 from "../assets/img/hero-carousel/hero-carousel-1.jpg";
-import image2 from "../assets/img/hero-carousel/hero-carousel-2.jpg";
-import image3 from "../assets/img/hero-carousel/hero-carousel-3.jpg";
-import image4 from "../assets/img/hero-carousel/hero-carousel-4.jpg";
-import image5 from "../assets/img/hero-carousel/hero-carousel-5.jpg";
+import image1 from "../assets/carousalimg/1.png";
+import image2 from "../assets/carousalimg/2.png";
+import image3 from "../assets/carousalimg/3.png";
+import image4 from "../assets/carousalimg/4.png";
+import image5 from "../assets/carousalimg/5.png";
+import image6 from "../assets/carousalimg/6.png";
+
 import { useLocation } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 
@@ -42,7 +44,7 @@ function Homepage() {
             </div>
           </div>
 
-          <Carousel images={[image1, image2, image3, image4, image5]} />
+          <Carousel images={[image1, image2, image3, image4, image5, image6]} />
         </section>
       )}
 

@@ -8,14 +8,33 @@ import DownloadLink from "../Components/DownloadLink";
 
 import Accordion from "react-bootstrap/Accordion";
 
+import heading from "../assets/downloadsimg/heading.jpg";
+
 function Downloads() {
   return (
     <React.Fragment>
-      <Header display={true} Route={"Downloads"} />
+      <Header display={true} Route={"Downloads"} image={heading} />
       <main id="main">
         <section class="sample-page">
           <div class="container">
             <Accordion defaultActiveKey="0">
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>MIDMAC PRESENTATION</Accordion.Header>
+                <DownloadLink
+                  text={"MIDMAC presentation"}
+                  link={
+                    "https://fine.pk/sites/midmac.ae/pdf/MIDMAC%20PRESENTATION/MIDMAC%20Presentation.pdf"
+                  }
+                />
+              </Accordion.Item>
+
+              <Accordion.Item eventKey="8">
+                <Accordion.Header>ORGANIZATION STRUCTURE</Accordion.Header>
+                <Accordion.Body>
+                  <img src={structure} style={{ maxHeight: "50vw" }} />
+                </Accordion.Body>
+              </Accordion.Item>
+
               <Accordion.Item eventKey="1">
                 <Accordion.Header>PROCESS OF PREQUALIFICATION</Accordion.Header>
 
@@ -41,26 +60,6 @@ function Downloads() {
                 />
               </Accordion.Item>
 
-              <Accordion.Item eventKey="2">
-                <Accordion.Header>MIDMAC PRESENTATION</Accordion.Header>
-                <DownloadLink
-                  text={"MIDMAC presentation"}
-                  link={
-                    "https://fine.pk/sites/midmac.ae/pdf/MIDMAC%20PRESENTATION/MIDMAC%20Presentation.pdf"
-                  }
-                />
-              </Accordion.Item>
-
-              <Accordion.Item eventKey="3">
-                <Accordion.Header>REFERENCES</Accordion.Header>
-                <DownloadLink
-                  text="REFERNCE LIST"
-                  link={
-                    "https://fine.pk/sites/midmac.ae/pdf/1%20-%20REFERENCES/REFRENCE%20LIST.pdf"
-                  }
-                />
-              </Accordion.Item>
-
               <Accordion.Item eventKey="4">
                 <Accordion.Header>QHSE SAFTEY QUALITY</Accordion.Header>
                 <DownloadLink
@@ -82,30 +81,6 @@ function Downloads() {
                 <DownloadLink
                   text="QUALITY POLICY"
                   link="https://fine.pk/sites/midmac.ae/pdf/2%20-%20QHSE%20SAFETY%20QUALITY/QUALITY%20POLICY.pdf"
-                />
-              </Accordion.Item>
-
-              <Accordion.Item eventKey="5">
-                <Accordion.Header>PHOTOS OF INSTALLTION</Accordion.Header>
-                <DownloadLink
-                  text="MECHNICAL KEY INTERLOCKS INSTALLATION"
-                  link="https://fine.pk/sites/midmac.ae/pdf/3%20-%20PHOTOS%20OF%20INSTALLTION/MECHANICAL%20KEY%20INTERLOCKS%20INSTALLATION.pdf"
-                />
-                <DownloadLink
-                  text="Handling Bag in place during Test"
-                  link="https://fine.pk/sites/midmac.ae/pdf/img/Handling%20Bag%20in%20place%20during%20Test.jpg"
-                />
-                <DownloadLink
-                  text="KNIFE GATE VALVE Punematic Cylinder"
-                  link="https://fine.pk/sites/midmac.ae/pdf/img/KNIFE%20GATE%20VALVE%20With%20Punematic%20Cylinder.jpg"
-                />
-                <DownloadLink
-                  text="KNIFE GATE VALVE"
-                  link="https://fine.pk/sites/midmac.ae/pdf/img/KNIFE%20GATE%20VALVE.jpg"
-                />
-                <DownloadLink
-                  text="Knife Gate Valves Move Clip"
-                  link="https://fine.pk/sites/midmac.ae/pdf/img/Knife%20Gate%20Valves%20Movie%20clip.mp4"
                 />
               </Accordion.Item>
 
@@ -177,11 +152,38 @@ function Downloads() {
                 />
               </Accordion.Item>
 
-              <Accordion.Item eventKey="8">
-                <Accordion.Header>ORGANIZATION STRUCTURE</Accordion.Header>
-                <Accordion.Body>
-                  <img src={structure} style={{ maxHeight: "50vw" }} />
-                </Accordion.Body>
+              <Accordion.Item eventKey="5">
+                <Accordion.Header>PHOTOS OF INSTALLATION</Accordion.Header>
+                <DownloadLink
+                  text="MECHNICAL KEY INTERLOCKS INSTALLATION"
+                  link="https://fine.pk/sites/midmac.ae/pdf/3%20-%20PHOTOS%20OF%20INSTALLTION/MECHANICAL%20KEY%20INTERLOCKS%20INSTALLATION.pdf"
+                />
+                <DownloadLink
+                  text="Handling Bag in place during Test"
+                  link="https://fine.pk/sites/midmac.ae/pdf/img/Handling%20Bag%20in%20place%20during%20Test.jpg"
+                />
+                <DownloadLink
+                  text="KNIFE GATE VALVE Punematic Cylinder"
+                  link="https://fine.pk/sites/midmac.ae/pdf/img/KNIFE%20GATE%20VALVE%20With%20Punematic%20Cylinder.jpg"
+                />
+                <DownloadLink
+                  text="KNIFE GATE VALVE"
+                  link="https://fine.pk/sites/midmac.ae/pdf/img/KNIFE%20GATE%20VALVE.jpg"
+                />
+                <DownloadLink
+                  text="Knife Gate Valves Move Clip"
+                  link="https://fine.pk/sites/midmac.ae/pdf/img/Knife%20Gate%20Valves%20Movie%20clip.mp4"
+                />
+              </Accordion.Item>
+
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>REFERENCES</Accordion.Header>
+                <DownloadLink
+                  text="REFERNCE LIST"
+                  link={
+                    "https://fine.pk/sites/midmac.ae/pdf/1%20-%20REFERENCES/REFRENCE%20LIST.pdf"
+                  }
+                />
               </Accordion.Item>
             </Accordion>
           </div>

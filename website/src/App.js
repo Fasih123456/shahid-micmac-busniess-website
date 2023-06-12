@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import Divisons from "./Pages/Divisions";
 import Downloads from "./Pages/Downloads";
-import Partners from "./Pages/Partners";
+import Products from "./Pages/Products";
 import Sectors from "./Pages/Sectors";
 import Aboutus from "./Pages/Aboutus";
 import ErrorPage from "./Pages/404";
@@ -25,7 +25,7 @@ function App() {
         <Route path="/" index element={<Homepage />} />
         <Route path="/divisions" element={<Divisons />} />
         <Route path="/Downloads" element={<Downloads />} />
-        <Route path="/Partners" element={<Partners />} />
+        <Route path="/Products" element={<Products />} />
         <Route path="/Sectors" element={<Sectors />} />
         <Route path="/Sectors/Refining" element={<Refining />} />
         <Route path="/Sectors/Marine" element={<Marine />} />

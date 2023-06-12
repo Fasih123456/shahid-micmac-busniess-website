@@ -894,11 +894,7 @@ section {
   line-height: 1;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
-}
-
-.projects .portfolio-flters li:hover,
-.projects .portfolio-flters li.filter-active {
-  color: var(--color-primary);
+  opacity: 1;
 }
 
 .projects .portfolio-flters li:first-child {
@@ -926,7 +922,7 @@ section {
 }
 
 .projects .portfolio-content .portfolio-info {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   inset: 0;
   z-index: 3;
@@ -936,6 +932,7 @@ section {
 }
 
 .projects .portfolio-content .portfolio-info h4 {
+  opacity: 0;
   font-size: 14px;
   padding: 5px 10px;
   font-weight: 400;
@@ -945,6 +942,7 @@ section {
 }
 
 .projects .portfolio-content .portfolio-info p {
+  opacity: 1;
   position: absolute;
   bottom: 10px;
   text-align: center;
@@ -958,6 +956,7 @@ section {
 
 .projects .portfolio-content .portfolio-info .preview-link,
 .projects .portfolio-content .portfolio-info .details-link {
+  opacity: 0;
   position: absolute;
   left: calc(50% - 40px);
   font-size: 26px;
@@ -965,6 +964,11 @@ section {
   color: #fff;
   transition: 0.3s;
   line-height: 1.2;
+}
+
+.projects .portfolio-content .portfolio-info:hover .preview-link,
+.projects .portfolio-content .portfolio-info:hover .details-link {
+  opacity: 1;
 }
 
 .projects .portfolio-content .portfolio-info .preview-link:hover,

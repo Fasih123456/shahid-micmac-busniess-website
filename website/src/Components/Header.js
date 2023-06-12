@@ -14,7 +14,7 @@ import Logo from "../assets/Logo2.png";
 
 import "../Personalassets/Header.css";
 
-function Header({ display, Route }) {
+function Header({ display, Route, image }) {
   const location = useLocation();
   const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
 
@@ -43,7 +43,7 @@ function Header({ display, Route }) {
       {display && (
         <div
           class="breadcrumbs d-flex align-items-center"
-          style={{ backgroundImage: "url(../assets/img/breadcrumbs-bg.jpg)" }}
+          style={{ backgroundImage: `url(${image || "../assets/img/breadcrumbs-bg.jpg"})` }}
         >
           <div class="container position-relative d-flex flex-column align-items-center">
             <h2>{Route}</h2>

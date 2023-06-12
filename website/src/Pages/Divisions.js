@@ -7,6 +7,7 @@ import image2 from "../assets/divisionsimg/2.png";
 import image3 from "../assets/divisionsimg/3.png";
 import image4 from "../assets/divisionsimg/4.png";
 import image5 from "../assets/divisionsimg/5.png";
+import heading from "../assets/divisionsimg/heading.jpg";
 
 import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
@@ -30,7 +31,7 @@ function Divisons() {
 
   return (
     <React.Fragment>
-      <Header display={true} Route={"Divisions"} />
+      <Header display={true} Route={"Divisions"} image={heading} />
       <section id="services" class="services section-bg">
         <div class="container">
           <div class="row gy-4">

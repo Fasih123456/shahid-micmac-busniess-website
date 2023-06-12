@@ -14,6 +14,8 @@ import "../Personalassets/Form.css";
 
 import "../Personalassets/Contact.css";
 
+import heading from "../assets/contactimg/heading.jpg";
+
 function Contact() {
   const defaultProps = {
     center: {
@@ -27,7 +29,7 @@ function Contact() {
 
   return (
     <React.Fragment>
-      <Header display={true} Route={"Contact"} />
+      <Header display={true} Route={"Contact"} image={heading} />
 
       <section id="contact" class="contact">
         <div class="container">
@@ -55,6 +57,7 @@ function Contact() {
                 <i class="bi bi-telephone"></i>
                 <h3>Call Us</h3>
                 <p>+971 (0)2 667 1717</p>
+                <p>+971 156 302 1903</p>
               </div>
             </div>
           </div>

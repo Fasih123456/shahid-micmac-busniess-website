@@ -7,11 +7,12 @@ import icon from "../assets/favicon.png";
 import image1 from "../assets/aboutusimg/1.jpeg";
 import image2 from "../assets/aboutusimg/2.jpeg";
 import image3 from "../assets/aboutusimg/3.jpeg";
+import heading from "../assets/aboutusimg/heading.jpg";
 
 function Aboutus() {
   return (
     <React.Fragment>
-      <Header display={true} Route={"About Us"} />
+      <Header display={true} Route={"About Us"} image={heading} />
       <main id="main">
         <section id="alt-services" class="alt-services">
           <div class="container">

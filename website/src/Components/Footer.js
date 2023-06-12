@@ -56,11 +56,12 @@ function Footer() {
                 <div class="col-lg-3 col-md-3 footer-links">
                   <h4>Contact</h4>
                   <p>+971 (0)2 667 1717</p>
+                  <p>+971 156 302 1903</p>
                   <p>
                     Delma Street , Sultan Manea Al Muhairi Building , Mez. Floor . P.O Box: 111303
                   </p>
                   <p>info@midmac.ae</p>
-                  <p>Sun to Thr 8:00 am to 6:00pm</p>
+                  <p>Mon to Fri 8:00 am to 6:00pm</p>
                 </div>
               </div>
             </div>
