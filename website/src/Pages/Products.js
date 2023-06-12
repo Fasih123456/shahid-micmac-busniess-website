@@ -45,7 +45,7 @@ function Products() {
             <li> Mechanical Key Interlocks</li>
             <li> Passive Fire Protection</li>
             <li> Actuators- Electric, Pneumatic & Electrohydraulic</li>
-            <li> Telecom & F&G (CCTV,</li>
+            <li> Telecom & F&G (CCTV)</li>
             <li> HVAC System</li>
           </ul>
         </section>
