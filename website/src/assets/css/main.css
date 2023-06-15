@@ -927,7 +927,6 @@ section {
   inset: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgba(0, 0, 0, 0.6);
   padding: 15px;
 }
 
@@ -949,9 +948,9 @@ section {
   display: inline-block;
   left: 0;
   right: 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 800;
+  color: RGB(255, 255, 255);
 }
 
 .projects .portfolio-content .portfolio-info .preview-link,

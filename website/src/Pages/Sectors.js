@@ -10,6 +10,10 @@ import image4 from "../assets/sectorsimg/petrochemical.jpg";
 import image5 from "../assets/sectorsimg/marine1.jpg";
 import image6 from "../assets/sectorsimg/MSI.jpg";
 import image7 from "../assets/sectorsimg/UI.jpg";
+import image8 from "../assets/sectorsimg/marinemain.jpeg";
+import image9 from "../assets/sectorsimg/powermain.jpeg";
+import image10 from "../assets/sectorsimg/refiningmain.jpeg";
+import image11 from "../assets/sectorsimg/petrochemicalmain.jpeg";
 
 import oilGas from "../assets/oilgasout.jpg";
 
@@ -51,11 +55,11 @@ function Sectors() {
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
                 <div class="portfolio-content h-100">
-                  <img src={image2} class="img-fluid sectorimg" alt="" style={{ height: "30vh" }} />
+                  <img src={image9} class="img-fluid sectorimg" alt="" style={{ height: "30vh" }} />
                   <div class="portfolio-info">
                     <p>Power</p>
                     <a
-                      href={image2}
+                      href={image9}
                       title="Construction 1"
                       class="glightbox preview-link"
                       style={{ height: "30vh" }}
@@ -72,11 +76,16 @@ function Sectors() {
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
                 <div class="portfolio-content h-100">
-                  <img src={image3} class="img-fluid sectorimg" alt="" style={{ height: "30vh" }} />
+                  <img
+                    src={image10}
+                    class="img-fluid sectorimg"
+                    alt=""
+                    style={{ height: "30vh" }}
+                  />
                   <div class="portfolio-info">
                     <p>Refining</p>
                     <a
-                      href={image3}
+                      href={image10}
                       title="Repairs 1"
                       class="glightbox preview-link"
                       style={{ height: "30vh" }}
@@ -93,11 +102,16 @@ function Sectors() {
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-design">
                 <div class="portfolio-content h-100">
-                  <img src={image4} class="img-fluid sectorimg" alt="" style={{ height: "30vh" }} />
+                  <img
+                    src={image11}
+                    class="img-fluid sectorimg"
+                    alt=""
+                    style={{ height: "30vh" }}
+                  />
                   <div class="portfolio-info">
                     <p>Petrochemicals</p>
                     <a
-                      href={image4}
+                      href={image11}
                       title="Repairs 1"
                       class="glightbox preview-link"
                       style={{ height: "30vh" }}
@@ -113,11 +127,11 @@ function Sectors() {
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
                 <div class="portfolio-content h-100">
-                  <img src={image5} class="img-fluid sectorimg" alt="" style={{ height: "30vh" }} />
+                  <img src={image8} class="img-fluid sectorimg" alt="" style={{ height: "30vh" }} />
                   <div class="portfolio-info">
                     <p>Marine</p>
                     <a
-                      href={image5}
+                      href={image8}
                       title="Remodeling 2"
                       class="glightbox preview-link"
                       style={{ height: "30vh" }}
