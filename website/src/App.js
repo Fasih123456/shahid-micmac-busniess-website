@@ -14,6 +14,7 @@ import OilGas from "./Pages/Subpages/Sectors/OilGas";
 import Marine from "./Pages/Subpages/Sectors/Marine";
 import Infustructure from "./Pages/Subpages/Sectors/Infustructure";
 import Industries from "./Pages/Subpages/Sectors/Industries";
+import AllProducts from "./Pages/AllProducts";
 
 import "./App.css";
 import "./assets/css/main.css";
@@ -35,6 +36,7 @@ function App() {
         <Route path="/Sectors/Infrastructure" element={<Infustructure />} />
         <Route path="/Sectors/Petrochemical" element={<PertoChemical />} />
         <Route path="/Sectors/Refining" element={<Refining />} />
+        <Route path="/ProductsAll" element={<AllProducts />} />
 
         <Route path="/Aboutus" element={<Aboutus />} />
         <Route path="/contact" element={<Contact />} />

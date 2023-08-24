@@ -1,16 +1,14 @@
 import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import ProductCarousel from "../Components/ProductsCarousel";
 
 import "../App.css";
 
 function Products() {
   return (
     <React.Fragment>
-      <Header display={false} Route={"Our Products"} />
+      <Header display={true} Route={"Scope Of Products"} />
       <main id="main">
-        <ProductCarousel />
         <section style={{ marginLeft: "5%" }}>
           <h1
             style={{
