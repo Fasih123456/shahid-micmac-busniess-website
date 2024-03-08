@@ -17,16 +17,6 @@ import "../Personalassets/Contact.css";
 import heading from "../assets/contactimg/heading.jpg";
 
 function Contact() {
-  const defaultProps = {
-    center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
-    },
-    zoom: 11,
-  };
-
-  const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
   return (
     <React.Fragment>
       <Header display={true} Route={"Contact"} image={heading} />
@@ -67,7 +57,11 @@ function Contact() {
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.599509595937!2d54.378323314978836!3d24.464676467030824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e67c467b84e65%3A0xbb66aefd9b782e8d!2sMidMac%20General%20Trading%20LLC!5e0!3m2!1sen!2sca!4v1678304650161!5m2!1sen!2sca"
                 frameborder="0"
-                style={{ border: "0", width: "100%", height: "384px" }}
+                style={{
+                  border: "0",
+                  width: "100%",
+                  height: "384px",
+                }}
                 allowfullscreen
               ></iframe>
             </div>
