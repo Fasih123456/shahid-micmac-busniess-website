@@ -57,7 +57,7 @@ function Contact() {
                 <i class="bi bi-telephone"></i>
                 <h3>Call Us</h3>
                 <p>+971 (0)2 667 1717</p>
-                <p>+971 156 302 1903</p>
+                <p>+971 56 302 1903</p>
               </div>
             </div>
           </div>
